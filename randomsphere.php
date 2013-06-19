@@ -2,7 +2,7 @@
 
 //
 // Sphere sampler v0.4 (16 November 2006)
-// This code creates a KML (Google Earth) file of random locations on 
+// This code creates a KML  file of random locations on 
 // a sphere. Input is: randomsphere.php?n where n is the number
 // of random placemarks desired.
 //
@@ -13,8 +13,9 @@
 //
 $iterations = $_SERVER['QUERY_STRING'];
 
+// An arbitrary limit to number of points to generate
 //if ($iterations > 50000) {
-//	echo "Exceeded arbitrary limit assigned by Alan. Modify the code to change this limit.";
+//	echo "Points must be less than 50000.";
 //	die;
 //}
 
