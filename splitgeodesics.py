@@ -1,6 +1,10 @@
 def splitgeodesics(longitude1,latitude1,longitude2,latitude2,num_of_segments):
 
-# now updated to Python 3
+# now updated to Python 3. As far as I can tell, the only difference for this 
+# particular script is with the parentheses needed for the print statements
+# the division symbols work the same since the operands were floating point
+# anyway.
+
 # this takes in two coordinate pairs and splits up the geodesic into a number
 # of sub arcs.
 # for now, the output is a KML
