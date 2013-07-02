@@ -38,6 +38,8 @@ for ($counter = 1; $counter <= $iterations; $counter += 1) {
 //just happens since php won't allow float numbers to be 
 // randomly generated.
 //
+// seems like i could do a better job choosing random longitudes
+// to do improve!
 
 $onemeansgoagain = 1;
 
