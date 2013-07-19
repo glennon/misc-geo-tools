@@ -1,0 +1,281 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="1.8.0-Lisboa">
+ <renderer-v2 attr="SOILCLASS" symbollevels="0" type="categorizedSymbol">
+  <categories>
+   <category symbol="0" value="As" label="As"/>
+   <category symbol="1" value="CrB" label="CrB"/>
+   <category symbol="2" value="CrC" label="CrC"/>
+   <category symbol="3" value="CsC" label="CsC"/>
+   <category symbol="4" value="CsD" label="CsD"/>
+   <category symbol="5" value="CtC" label="CtC"/>
+   <category symbol="6" value="CtD" label="CtD"/>
+   <category symbol="7" value="EIB" label="EIB"/>
+   <category symbol="8" value="Ln" label="Ln"/>
+   <category symbol="9" value="Nb" label="Nb"/>
+   <category symbol="10" value="NcA" label="NcA"/>
+   <category symbol="11" value="NcB" label="NcB"/>
+   <category symbol="12" value="No" label="No"/>
+   <category symbol="13" value="Nv" label="Nv"/>
+   <category symbol="14" value="VrC" label="VrC"/>
+   <category symbol="15" value="VrD" label="VrD"/>
+   <category symbol="16" value="VtD" label="VtD"/>
+   <category symbol="17" value="w" label="w"/>
+   <category symbol="18" value="" label=""/>
+  </categories>
+  <symbols>
+   <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="color" v="202,0,32,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.26"/>
+    </layer>
+   </symbol>
+   <symbol outputUnit="MM" alpha="1" type="fill" name="1">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="color" v="211,36,53,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.26"/>
+    </layer>
+   </symbol>
+   <symbol outputUnit="MM" alpha="1" type="fill" name="10">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="color" v="239,239,239,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.26"/>
+    </layer>
+   </symbol>
+   <symbol outputUnit="MM" alpha="1" type="fill" name="11">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="color" v="224,224,224,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.26"/>
+    </layer>
+   </symbol>
+   <symbol outputUnit="MM" alpha="1" type="fill" name="12">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="color" v="209,209,209,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.26"/>
+    </layer>
+   </symbol>
+   <symbol outputUnit="MM" alpha="1" type="fill" name="13">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="color" v="193,193,193,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.26"/>
+    </layer>
+   </symbol>
+   <symbol outputUnit="MM" alpha="1" type="fill" name="14">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="color" v="172,172,172,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.26"/>
+    </layer>
+   </symbol>
+   <symbol outputUnit="MM" alpha="1" type="fill" name="15">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="color" v="145,145,145,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.26"/>
+    </layer>
+   </symbol>
+   <symbol outputUnit="MM" alpha="1" type="fill" name="16">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="color" v="118,118,118,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.26"/>
+    </layer>
+   </symbol>
+   <symbol outputUnit="MM" alpha="1" type="fill" name="17">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="color" v="91,91,91,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.26"/>
+    </layer>
+   </symbol>
+   <symbol outputUnit="MM" alpha="1" type="fill" name="18">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="color" v="64,64,64,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.26"/>
+    </layer>
+   </symbol>
+   <symbol outputUnit="MM" alpha="1" type="fill" name="2">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="color" v="220,73,75,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.26"/>
+    </layer>
+   </symbol>
+   <symbol outputUnit="MM" alpha="1" type="fill" name="3">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="color" v="230,110,97,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.26"/>
+    </layer>
+   </symbol>
+   <symbol outputUnit="MM" alpha="1" type="fill" name="4">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="color" v="239,146,119,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.26"/>
+    </layer>
+   </symbol>
+   <symbol outputUnit="MM" alpha="1" type="fill" name="5">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="color" v="245,175,143,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.26"/>
+    </layer>
+   </symbol>
+   <symbol outputUnit="MM" alpha="1" type="fill" name="6">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="color" v="247,195,171,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.26"/>
+    </layer>
+   </symbol>
+   <symbol outputUnit="MM" alpha="1" type="fill" name="7">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="color" v="250,215,199,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.26"/>
+    </layer>
+   </symbol>
+   <symbol outputUnit="MM" alpha="1" type="fill" name="8">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="color" v="252,235,227,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.26"/>
+    </layer>
+   </symbol>
+   <symbol outputUnit="MM" alpha="1" type="fill" name="9">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.26"/>
+    </layer>
+   </symbol>
+  </symbols>
+  <source-symbol>
+   <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="color" v="194,106,209,255"/>
+     <prop k="color_border" v="0,0,0,255"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="style" v="solid"/>
+     <prop k="style_border" v="solid"/>
+     <prop k="width_border" v="0.26"/>
+    </layer>
+   </symbol>
+  </source-symbol>
+  <colorramp type="gradient" name="[source]">
+   <prop k="color1" v="202,0,32,255"/>
+   <prop k="color2" v="64,64,64,255"/>
+   <prop k="stops" v="0.25;244,165,130,255:0.5;255,255,255,255:0.75;186,186,186,255"/>
+  </colorramp>
+  <rotation field=""/>
+  <sizescale field=""/>
+ </renderer-v2>
+ <customproperties/>
+ <displayfield>fillColor</displayfield>
+ <label>0</label>
+ <labelattributes>
+  <label fieldname="" text="Label"/>
+  <family fieldname="" name="MS Shell Dlg 2"/>
+  <size fieldname="" units="pt" value="12"/>
+  <bold fieldname="" on="0"/>
+  <italic fieldname="" on="0"/>
+  <underline fieldname="" on="0"/>
+  <strikeout fieldname="" on="0"/>
+  <color fieldname="" red="0" blue="0" green="0"/>
+  <x fieldname=""/>
+  <y fieldname=""/>
+  <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+  <angle fieldname="" value="0" auto="0"/>
+  <alignment fieldname="" value="center"/>
+  <buffercolor fieldname="" red="255" blue="255" green="255"/>
+  <buffersize fieldname="" units="pt" value="1"/>
+  <bufferenabled fieldname="" on=""/>
+  <multilineenabled fieldname="" on=""/>
+  <selectedonly on=""/>
+ </labelattributes>
+ <edittypes>
+  <edittype type="0" name="DESCRIP"/>
+  <edittype type="0" name="MAPKEY"/>
+  <edittype type="0" name="SOILCLASS"/>
+  <edittype type="0" name="fillColor"/>
+ </edittypes>
+ <editform></editform>
+ <editforminit></editforminit>
+ <annotationform></annotationform>
+ <attributeactions/>
+ <overlay display="false" type="diagram">
+  <renderer item_interpretation="linear">
+   <diagramitem size="0" value="0"/>
+   <diagramitem size="0" value="0"/>
+  </renderer>
+  <factory sizeUnits="MM" type="Pie">
+   <wellknownname>Pie</wellknownname>
+   <classificationfield>0</classificationfield>
+  </factory>
+  <scalingAttribute>0</scalingAttribute>
+ </overlay>
+</qgis>
